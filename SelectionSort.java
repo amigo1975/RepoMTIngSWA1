@@ -17,7 +17,7 @@ public class SelectionSort implements SortingStrategy {
 			numbers[first] = numbers[i];
 			numbers[i] = temp;
 		}
-		
+		//Aqui se imprime en pantalla
 		System.out.println(Arrays.toString(numbers));
 	}
 }
