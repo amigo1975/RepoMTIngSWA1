@@ -6,6 +6,7 @@ public class SelectionSort implements SortingStrategy {
 	public void sort(int[] numbers) {
 		System.out.println("Selection Sort!");
 
+		//se declaran variable siniciales
 		int i, j, first, temp;
 		for (i = numbers.length - 1; i > 0; i--) {
 			first = 0;
